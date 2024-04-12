@@ -34,8 +34,8 @@ export default function Home() {
         style={{ width: 120 }}
         onChange={handleChange}
         options={[
-          { value: "about", label: "Go About" },
-          { value: "contact", label: "Go Contact" },
+          { value: "address", label: "Go Address" },
+          { value: "policy", label: "Go Policy" },
         ]}
       />
     </>

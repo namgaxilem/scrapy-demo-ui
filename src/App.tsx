@@ -4,6 +4,8 @@ import "./App.css";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
+import Address from "./pages/Address";
+import Policy from "./pages/Policy";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +19,14 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact />,
+  },
+  {
+    path: "/address",
+    element: <Address />,
+  },
+  {
+    path: "/policy",
+    element: <Policy />,
   },
 ]);
 
