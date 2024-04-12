@@ -1,3 +1,4 @@
+import { Select } from "antd";
 import { useNavigate } from "react-router-dom";
 
 export default function Home() {
@@ -6,6 +7,11 @@ export default function Home() {
   const onChange = (e) => {
     const value = e.target.value;
     console.log("onChange", value);
+    nav(`/${value}`);
+  };
+
+  const handleChange = (value: string) => {
+    console.log(`handleChange ${value}`);
     nav(`/${value}`);
   };
 
@@ -22,6 +28,16 @@ export default function Home() {
         <option value="about">Go About</option>
         <option value="contact">Go Contact</option>
       </select>
+      <Select
+        // defaultValue="lucy"
+        placeholder="Ant design select"
+        style={{ width: 120 }}
+        onChange={handleChange}
+        options={[
+          { value: "about", label: "Go About" },
+          { value: "contact", label: "Go Contact" },
+        ]}
+      />
     </>
   );
 }
