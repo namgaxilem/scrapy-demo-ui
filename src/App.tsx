@@ -6,6 +6,8 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Address from "./pages/Address";
 import Policy from "./pages/Policy";
+import Notification from "./pages/Notification"
+import Login from "./pages/Login"
 
 const router = createBrowserRouter([
   {
@@ -28,6 +30,14 @@ const router = createBrowserRouter([
     path: "/policy",
     element: <Policy />,
   },
+  {
+    path: "/notification",
+    element: <Notification />
+  },
+  {
+    path: "/login",
+    element: <Login />
+  }
 ]);
 
 function App() {

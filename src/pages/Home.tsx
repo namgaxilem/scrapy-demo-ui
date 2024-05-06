@@ -1,4 +1,4 @@
-import { Select } from "antd";
+import { Button, Select, Space } from "antd";
 import { useNavigate } from "react-router-dom";
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
   };
 
   return (
-    <>
+    <div className="flex flex-col items-center gap-4">
       <h1 className="text-3xl font-bold underline text-red-50">Home Page</h1>
       <select
         className="select select-bordered w-full max-w-xs"
@@ -38,6 +38,11 @@ export default function Home() {
           { value: "policy", label: "Go Policy" },
         ]}
       />
-    </>
+
+      <Space>
+        <Button onClick={() => nav("/notification")}>Go Notification</Button>
+        <Button onClick={() => nav("/login")}>Go Login</Button>
+      </Space>
+    </div>
   );
 }
