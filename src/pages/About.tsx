@@ -1,3 +1,12 @@
+import { useState } from "react";
+
 export default function About() {
-    return <>About myself lorem ipsum</>
+  const [localData] = useState({ ...localStorage });
+
+  return (
+    <>
+      <div>About myself lorem ipsum </div>
+      <div>{JSON.stringify(localData)}</div>
+    </>
+  );
 }
