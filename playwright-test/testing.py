@@ -20,7 +20,7 @@ def extract_local_storage(storage_data):
 async def auto_login_with_localstorage():
     async with async_playwright() as playwright:
         browser = await playwright.chromium.launch(headless=False)
-        browser_context = await browser.new_context(java_script_enabled=True, ignore_https_errors=True)
+        browser_context = await browser.new_context(java_script_enabled=True, ignore_https_errors=True, storage_state="storage_state.json")
         await browser_context.add_cookies(auth_data['cookies'])
         lc_obj = extract_local_storage(auth_data)
         
