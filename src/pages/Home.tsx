@@ -54,17 +54,51 @@ function Footer() {
     <footer className="footer bg-base-300 text-base-content p-10">
       <nav>
         <h6 className="footer-title">Services</h6>
-        <a className="link link-hover">Branding</a>
-        <a className="link link-hover">Design</a>
-        <a className="link link-hover">Marketing</a>
-        <a className="link link-hover">Advertisement</a>
+        <a href="https://github.com/" className="link link-hover">
+          https://github.com/
+        </a>
+        <a
+          href="https://trunk.io/linters/python/flake8"
+          className="link link-hover"
+        >
+          https://trunk.io/linters/python/flake8
+        </a>
+        <a
+          href="https://trunk.io/linters/python/flake8"
+          className="link link-hover"
+        >
+          https://trunk.io/linters/python/flake8
+        </a>
+        <a
+          href="https://trunk.io/linters/python/flake8"
+          className="link link-hover"
+        >
+          https://trunk.io/linters/python/flake8
+        </a>
       </nav>
       <nav>
         <h6 className="footer-title">Company</h6>
-        <a className="link link-hover">About us</a>
-        <a className="link link-hover">Contact</a>
-        <a className="link link-hover">Jobs</a>
-        <a className="link link-hover">Press kit</a>
+        <a
+          href="https://trunk.io/linters/python/flake8"
+          className="link link-hover"
+        >
+          https://trunk.io/linters/python/flake8
+        </a>
+        <a
+          href="https://trunk.io/linters/python/flake8"
+          className="link link-hover"
+        >
+          https://trunk.io/linters/python/flake8
+        </a>
+        <a
+          href="https://dev.to/cwprogram/python-linting-with-flake8-and-pylint-1m1d"
+          className="link link-hover"
+        >
+          https://dev.to/cwprogram/python-linting-with-flake8-and-pylint-1m1d
+        </a>
+        <a href="https://peps.python.org/pep-0008/" className="link link-hover">
+          ttps://peps.python.org/pep-0008/
+        </a>
       </nav>
       <nav>
         <h6 className="footer-title">Social</h6>
