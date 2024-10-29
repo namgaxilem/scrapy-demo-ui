@@ -62,12 +62,12 @@ export default function Home() {
               <div className="mt-4 flex justify-between">
                 <div>
                   <h3 className="text-sm text-gray-700">
-                    <a href="https://example.com?product=1">
+                    <a href="/product-detail?product=1">
                       <span
                         aria-hidden="true"
                         className="absolute inset-0"
                       ></span>
-                      Basic Tee
+                      Basic Tee 1
                     </a>
                   </h3>
                   <p className="mt-1 text-sm text-gray-500">Black</p>
@@ -86,12 +86,12 @@ export default function Home() {
               <div className="mt-4 flex justify-between">
                 <div>
                   <h3 className="text-sm text-gray-700">
-                    <a href="https://example.com?product=2">
+                    <a href="/product-detail?product=2">
                       <span
                         aria-hidden="true"
                         className="absolute inset-0"
                       ></span>
-                      Basic Tee
+                      Basic Tee 2
                     </a>
                   </h3>
                   <p className="mt-1 text-sm text-gray-500">Black</p>
@@ -110,12 +110,12 @@ export default function Home() {
               <div className="mt-4 flex justify-between">
                 <div>
                   <h3 className="text-sm text-gray-700">
-                    <a href="https://example.com?product=3">
+                    <a href="/product-detail?product=3">
                       <span
                         aria-hidden="true"
                         className="absolute inset-0"
                       ></span>
-                      Basic Tee
+                      Basic Tee 3
                     </a>
                   </h3>
                   <p className="mt-1 text-sm text-gray-500">Black</p>
